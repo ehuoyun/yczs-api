@@ -106,6 +106,6 @@
     "+proxy": function(url, host, scheme) {
         "use strict";
         if (host === "127.0.0.1" || host === "::1" || host.indexOf(".") < 0) return "DIRECT";
-        return "SOCKS5 localhost:7070; SOCKS localhost:7070";
+        return "SOCKS5 localhost:1080; SOCKS localhost:1080";
     }
 });
